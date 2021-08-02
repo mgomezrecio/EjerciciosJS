@@ -7,7 +7,7 @@ function tablaMultiplicar(numero) {
     console.log(enunciado);
     for (i = 1; i <= 10; i++) {
         let multiplicar = (numero * i);
-        let resultado = `${numero} X ${numero} = ${multiplicar}`;
+        let resultado = `${i} X ${numero} = ${multiplicar}`;
         console.log(resultado);
     }
 }
